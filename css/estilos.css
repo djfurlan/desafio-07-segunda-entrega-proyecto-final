@@ -95,7 +95,7 @@ main {
 /******************************* FOOTER ******************************/
 
 .footer {
-    height: 60px !important;
+    height:auto !important;
 }
 
 .col-1 img {
