@@ -1,0 +1,65 @@
+/* ----------- Reseteo -----------*/
+
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+
+/************ Header ************/
+
+.logo-appa {
+    width: 80px;
+}
+
+.navbar h1 {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.navbar-nav li:hover {
+    text-decoration: underline;
+}
+
+/***************************** Main Generico ****************************/
+main {
+    background-color: rgba(180, 241, 195, 0.505);
+}
+
+/***************************** Main Visitas ****************************/
+
+#iframe {
+    height: 400px !important;
+}
+
+/**************************** Main Contactenos**************************/
+
+#fname:hover, #lname:hover, #email:hover, #phone:hover, #message:hover {
+    background-color: rgba(231, 158, 158, 0.283);
+ }
+
+/******************************* FOOTER ******************************/
+
+.footer {
+    height: 60px !important;
+}
+
+.col-1 img {
+    width: 30px;
+    border-radius: 60%;
+}
+
+.col-1 img:hover {
+    zoom: 1.1;
+}
+.logo-footer {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
