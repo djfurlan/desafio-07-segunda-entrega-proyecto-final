@@ -112,3 +112,28 @@ main {
 }
 
 
+/************************* Media Query ************************/
+
+@media screen and (max-width: 910px) {
+    .beneficios {
+        grid-template-areas: "h2"
+                             "past"
+                             "nat"
+                             "desh"
+                             "p";
+        grid-gap: 5px 40px;
+        justify-items: center;
+    }
+
+    .beneficios h2 {
+        margin-top: 30px;
+    }
+
+    .beneficios img {
+        width: 80%;
+    }
+
+    .beneficios p {
+        margin-bottom: 30px;
+    }
+}
